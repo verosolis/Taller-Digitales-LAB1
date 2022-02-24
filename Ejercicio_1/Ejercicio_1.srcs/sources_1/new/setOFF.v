@@ -21,17 +21,19 @@
 
 
 module setOFF(
+    input clk,
     input [3:0] inputSwitch,
-    output reg [3:0] outputleds
+    input btn,
+    input[3:0]  outputleds
 
     );
+    genvar i;
     
-    integer i;
-    integer d = 1'b0;
-    initial begin     
-         for(i = 0; i < 4 ; i = i + 1) 
-         begin
-           outputleds[i] = d ;
-         end
+ 
+      for(i = 0; i < 4 ; i = i + 1) 
+      begin
+         nand(outputleds[i],inputSwitch[i],btn);
+        
       end
+     
 endmodule

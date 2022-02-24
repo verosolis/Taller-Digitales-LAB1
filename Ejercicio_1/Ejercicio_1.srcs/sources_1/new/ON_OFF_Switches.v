@@ -34,33 +34,15 @@ module ON_OFF_Switches(
     );
     //reg [15:0] outLeds;
     reg [15:0] outLeds;
-   
-    always @(posedge clk)
-       begin
-    // Parse of switches by button
-        if(btnU==1)
-            
-                setOFF(.inputSwitch(swtch[15:12]),.outputleds(outLeds[15:12]));
-          
-        else if (btnR==1)
-            
-                 setOFF(.inputSwitch(swtch[11:8]),.outputleds(outLeds[11:8]));
-               
-        else if (btnD==1)
-           
-                setOFF(.inputSwitch(swtch[7:4]),.outputleds(outLeds[7:4]));
-               
-        else if (btnL==1)
-            
-                setOFF(.inputSwitch(swtch[3:0]),.outputleds(outLeds[3:0]));
-        else
-                setON(.inputSwitch(swtch[15:0]),.outputleds(outLeds[15:0]));
-        
-                   
-    end 
-         
-          assign led = outLeds;
-        
-        
+    //setON(.inputSwitch(swtch[15:0]),.outputleds(outLeds[15:0]));
+    setOFF(.clk(clk),.inputSwitch(swtch[15:12]),.btn(btnU),.outputleds(outLeds[15:12]));
+    setOFF(.clk(clk),.inputSwitch(swtch[11:8]),.btn(btnR),.outputleds(outLeds[11:8]));
+    setOFF(.clk(clk),.inputSwitch(swtch[7:4]),.btn(btnD),.outputleds(outLeds[7:4]));
+    setOFF(.clk(clk),.inputSwitch(swtch[3:0]),.btn(btnL),.outputleds(outLeds[3:0]));
+    //tOFF(.inputSwitch(swtch[11:8]),.outputleds(outLeds[3:8]));
+    //setOFF(.inputSwitch(swtch[7:4]),.outputleds(outLeds[7:4]));
+    //setOFF(.inputSwitch(swtch[3:0]),.outputleds(outLeds[3:0]));
+     assign led = outLeds;   
 
+          
 endmodule

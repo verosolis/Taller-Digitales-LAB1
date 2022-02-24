@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Ejercicio_1.srcs/sources_1/new/setOFF.v" \
+"../../../../Ejercicio_1.srcs/sources_1/new/ON_OFF_Switches.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

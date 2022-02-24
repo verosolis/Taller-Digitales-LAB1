@@ -1,0 +1,12 @@
+
+{ 
+    crc :  13342005184353932158  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto f0fb04b8158a4d248d5c00b4c2309505 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_RCA_behav xil_defaultlib.testbench_RCA xil_defaultlib.glbl" , 
+    buildDate : "Nov 18 2020" , 
+    buildTime : "09:47:47" , 
+    linkCmd : "C:\\Xilinx\\Vivado\\2020.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/testbench_RCA_behav/xsimk.exe\"   \"xsim.dir/testbench_RCA_behav/obj/xsim_0.win64.obj\" \"xsim.dir/testbench_RCA_behav/obj/xsim_1.win64.obj\" -L\"C:\\Xilinx\\Vivado\\2020.2\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

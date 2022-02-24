@@ -1,0 +1,3 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/veron/Desktop/TEC/2022/ISemestre/TallerDigitales/Lab1/codigo/Taller-Digitales-LAB1/Ejercicio_1/Ejercicio_1.sim/sim_1/synth/timing/xsim/ON_OFF_Switches_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ON_OFF_Switches
+INFO: [VRFC 10-311] analyzing module glbl

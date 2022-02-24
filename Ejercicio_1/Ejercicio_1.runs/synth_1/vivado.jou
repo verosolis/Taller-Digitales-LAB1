@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Feb 22 19:37:52 2022
+# Process ID: 25696
+# Current directory: C:/Users/veron/Desktop/TEC/2022/ISemestre/TallerDigitales/Lab1/codigo/Taller-Digitales-LAB1/Ejercicio_1/Ejercicio_1.runs/synth_1
+# Command line: vivado.exe -log ON_OFF_Switches.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ON_OFF_Switches.tcl
+# Log file: C:/Users/veron/Desktop/TEC/2022/ISemestre/TallerDigitales/Lab1/codigo/Taller-Digitales-LAB1/Ejercicio_1/Ejercicio_1.runs/synth_1/ON_OFF_Switches.vds
+# Journal file: C:/Users/veron/Desktop/TEC/2022/ISemestre/TallerDigitales/Lab1/codigo/Taller-Digitales-LAB1/Ejercicio_1/Ejercicio_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ON_OFF_Switches.tcl -notrace

@@ -20,14 +20,14 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module TB;
+module testbench;
 
 reg [15:0]sw;
 reg [0:3] btns;
 reg clk;
 reg [15:0]leds;
 
-ON_OFF_Switches(.clk(clk),.btnU(btns[0]),
+ON_OFF_Switches uut(.clk(clk),.btnU(btns[0]),
                 .btnR(btns[1]),.btnD(btns[2]),
                 .btnL(btns[3]),.swtch(sw),
                 .led(leds));

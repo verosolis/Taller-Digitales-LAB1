@@ -1,0 +1,7 @@
+Running: xsim.dir/ON_OFF_Switches_time_synth/xsimk.exe -simmode gui -wdb ON_OFF_Switches_time_synth.wdb -simrunnum 0 -socket 58504
+Design successfully loaded
+Design Loading Memory Usage: 6372 KB (Peak: 6372 KB)
+Design Loading CPU Usage: 61 ms
+Simulation completed
+Simulation Memory Usage: 6736 KB (Peak: 6736 KB)
+Simulation CPU Usage: 61 ms
