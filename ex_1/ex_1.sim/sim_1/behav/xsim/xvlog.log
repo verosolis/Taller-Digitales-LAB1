@@ -1,6 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/veron/Desktop/TEC/2022/ISemestre/TallerDigitales/Lab1/codigo/Taller-Digitales-LAB1/ex_1/ex_1.srcs/sources_1/new/exercice1.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module exercice1
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/veron/Desktop/TEC/2022/ISemestre/TallerDigitales/Lab1/codigo/Taller-Digitales-LAB1/ex_1/ex_1.srcs/sources_1/new/setOFF.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module setOFF
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/veron/Desktop/TEC/2022/ISemestre/TallerDigitales/Lab1/codigo/Taller-Digitales-LAB1/ex_1/ex_1.srcs/sources_1/new/testbench.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module testbench
